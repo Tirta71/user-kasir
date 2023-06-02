@@ -57,13 +57,6 @@ const MenuList = ({ jenis }) => {
         );
 
         console.log("Menu berhasil ditambahkan ke cart");
-        Swal.fire(
-          "Success!",
-          "Menu berhasil ditambahkan ke cart",
-          "success"
-        ).then(() => {
-          // test
-        });
       }
     } catch (error) {
       console.error("Error menambahkan data ke cart:", error);
