@@ -55,7 +55,7 @@ const MenuList = ({ jenis }) => {
           "https://646f8bf209ff19b120877364.mockapi.io/login/cart",
           newItem
         );
-
+        Swal.fire("Success", "Makanan Berhasil Ditambahkan", "success");
         console.log("Menu berhasil ditambahkan ke cart");
       }
     } catch (error) {

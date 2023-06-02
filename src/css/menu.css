@@ -13,6 +13,10 @@
 .container-drop {
   display: none;
 }
+
+.my-card-huhu {
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .card-container {
     flex-direction: row;

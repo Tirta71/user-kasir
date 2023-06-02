@@ -76,9 +76,16 @@
   .my-itemDrop img {
     width: 40%;
     object-fit: cover;
+    padding: 10px;
   }
   .togle-drop {
     background-color: transparent;
     border: none;
+  }
+  .nama-makanan h6 {
+    font-size: 15px;
+  }
+  .nama-makanan p {
+    font-size: 14px;
   }
 }

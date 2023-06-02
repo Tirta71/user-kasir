@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Spinner } from "react-bootstrap";
 
-import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function ButtonReload() {
@@ -9,7 +8,6 @@ export default function ButtonReload() {
 
   const handleButtonReload = () => {
     setLoading(true);
-    toast.success("Item Ditambahkan Silahkan cek keranjang");
 
     setTimeout(() => {
       window.location.reload();
@@ -18,7 +16,6 @@ export default function ButtonReload() {
 
   return (
     <div>
-      <ToastContainer />
       <button
         className="btn btn-primary w-80 m-auto d-block p-3 mt-2"
         onClick={handleButtonReload}
