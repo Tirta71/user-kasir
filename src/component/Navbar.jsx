@@ -12,15 +12,14 @@ export default function NavbarKu() {
     <div>
       <Navbar variant="dark" bg="dark" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home">Warkop Ku</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbar-dark-example" />
-          <Navbar.Collapse id="navbar-dark-example">
+          <div className="d-flex align-items-center">
+            <Navbar.Brand href="/">Warkop Ku</Navbar.Brand>
             {isDesktop && (
-              <Nav>
+              <Nav className="ms-auto">
                 <CartDropdown />
               </Nav>
             )}
-          </Navbar.Collapse>
+          </div>
         </Container>
       </Navbar>
     </div>
