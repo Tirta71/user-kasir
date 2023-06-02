@@ -1,0 +1,84 @@
+.custom-dropdown-menu {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.item-image {
+  width: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.my-itemDrop {
+  height: 150px;
+  display: flex;
+  box-shadow: 2px 2px 10px black;
+  margin: 30px 0;
+  overflow: hidden;
+}
+
+.container-item-drop {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  overflow: hidden;
+  margin: auto;
+}
+
+.font-item {
+  display: flex;
+  gap: 20px;
+}
+
+.font-item .delete-button,
+.font-item .tambah-button {
+  padding: 0 15px;
+}
+.font-item p {
+  font-family: "Courier New", Courier, monospace;
+  margin: auto;
+}
+.button-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.button-input input {
+  padding: 0.5rem;
+  border-radius: 5px;
+
+  border: 1px solid blue;
+  font-family: monospace;
+}
+.togle-drop {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .my-dropdown {
+    border-radius: 5px;
+    width: 100%;
+    text-align: start;
+  }
+  .custom-dropdown-menu {
+    width: 100%;
+  }
+  .my-itemDrop {
+    width: 100%;
+    height: 100px;
+  }
+  .my-itemDrop img {
+    width: 40%;
+    object-fit: cover;
+  }
+  .togle-drop {
+    background-color: transparent;
+    border: none;
+  }
+}
